@@ -24,7 +24,8 @@ export const Productos = () => {
     }, []);
 
     return (
-        <div>Productos
+        <div style={{ margin: '10px 0 0 20%'}}>
+            Productos
             {productos.map(producto => (
                 <div className="col-sm-6 col-md-4 col-lg-3" style={{ paddingBottom: "30px" }}>
                     <li key={producto.id}>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const InformacionProducto = () => {
   return (
-    <div>InformacionProducto</div>
+    <div style={{ margin: '10px 0 0 20%'}}>InformacionProducto</div>
   )
 }
 

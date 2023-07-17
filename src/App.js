@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="Navigation">
+    <div style={{ display: 'flex' }}>
       <Router>
       <div>
         <Menu/>
