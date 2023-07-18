@@ -15,17 +15,14 @@ export const Menu = () => {
     <CDBSidebar textColor="#fff" backgroundColor="#333">
       <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
         <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>
-          Sidebar
+          Bienvenido
         </a>
       </CDBSidebarHeader>
 
       <CDBSidebarContent className="sidebar-content">
         <CDBSidebarMenu>
           <NavLink  to="/productos">
-            <CDBSidebarMenuItem icon="columns">Productos</CDBSidebarMenuItem>
-          </NavLink>
-          <NavLink  to="/informacion" >
-            <CDBSidebarMenuItem icon="table">Información de Producto</CDBSidebarMenuItem>
+            <CDBSidebarMenuItem icon="archive">Productos</CDBSidebarMenuItem>
           </NavLink>
         </CDBSidebarMenu>
       </CDBSidebarContent>
@@ -36,7 +33,7 @@ export const Menu = () => {
             padding: '20px 5px',
           }}
         >
-          Sidebar Footer
+          E-commerce
         </div>
       </CDBSidebarFooter>
     </CDBSidebar>
