@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 /* center container in the middle */
-html {
+/* html {
   display: grid;
   min-height: 100%;
 }
@@ -13,7 +13,11 @@ body {
   text-transform: uppercase;
   overflow-x: hidden;
   overflow-y: hidden;
+} */
+.producto-rating {
+  color: #fdd835; /* Cambia este color al color amarillo deseado */
 }
+
 
 .container {
   position: relative;

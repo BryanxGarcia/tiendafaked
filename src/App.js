@@ -4,6 +4,7 @@ import Menu from '../src/components/Menu';
 import InformacionProducto from '../src/components/InformacionProducto';
 
 import './App.css';
+import TableProductos from './components/TableProductos';
 
 function App() {
   return (
@@ -13,8 +14,10 @@ function App() {
         <Menu/>
       </div>
           <Routes>
+          <Route path="/" element={<Productos/> }/>
             <Route path="/productos" element={<Productos/> }/>
-            <Route path="/informacion" element={<InformacionProducto/>}/> 
+            <Route path="/productosTable" element={<TableProductos/> }/>
+            <Route path="/informacion/:id" element={<InformacionProducto/>}/> 
           </Routes>
       </Router>
     </div>

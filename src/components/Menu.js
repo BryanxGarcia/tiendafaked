@@ -24,6 +24,9 @@ export const Menu = () => {
           <NavLink  to="/productos">
             <CDBSidebarMenuItem icon="archive">Productos</CDBSidebarMenuItem>
           </NavLink>
+          <NavLink  to="/productosTable">
+            <CDBSidebarMenuItem icon="archive">CRUD Productos</CDBSidebarMenuItem>
+          </NavLink>
         </CDBSidebarMenu>
       </CDBSidebarContent>
 
